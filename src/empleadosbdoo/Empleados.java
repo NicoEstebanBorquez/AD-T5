@@ -56,5 +56,9 @@ public class Empleados {
         this.Salario = Salario;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Empleados{" + "codEmpleado=" + codEmpleado + ", Nombre=" + Nombre + ", Apellidos=" + Apellidos + ", Departamento=" + Departamento + ", Salario=" + Salario + '}';
+    }
+
 }
